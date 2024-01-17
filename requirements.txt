@@ -1,6 +1,4 @@
-requests
-dataclasses
-pymongo
-telegram
-feedparser
-typing
+feedparser==6.0.2
+pymongo==3.12.1
+python-telegram-bot==19.8
+requests-html==0.10.0
