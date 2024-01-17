@@ -1,0 +1,7 @@
+requests
+dataclasses
+pymongo
+time
+telegram
+feedparser
+typing
