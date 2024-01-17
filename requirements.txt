@@ -1,4 +1,4 @@
 feedparser==6.0.2
 pymongo==3.12.1
-python-telegram-bot==19.8
+python-telegram-bot
 requests-html==0.10.0
