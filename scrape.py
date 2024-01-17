@@ -5,6 +5,7 @@ from datetime import datetime
 from pymongo import MongoClient
 from time import sleep
 import feedparser
+from telegram import Bot, ParseMode
 
 @dataclass
 class Movie:
