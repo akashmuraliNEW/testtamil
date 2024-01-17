@@ -82,7 +82,7 @@ def scrape_from_url(url: str) -> Movie:
     movie = Movie(name, release_datetime, poster_url, screenshots, torrents)
     return movie
 
-MONGODB_CONNECTION_STRING = "mongodb://localhost:27017/"
+MONGODB_CONNECTION_STRING = "mongodb+srv://spotify:spotify@cluster0.tmcsezs.mongodb.net/?retryWrites=true&w=majority"
 DATABASE_NAME = "movie_links_db"
 COLLECTION_NAME = "movie_links"
 
