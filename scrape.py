@@ -111,8 +111,9 @@ def process_new_movie_data(movie_data: Movie, bot_token: str, chat_id: str):
     # Customize the message format based on your needs
     message = f"*New Movie Release*\n\n{movie_data}\n\n[View Details]({movie_data.poster_url})"
     print("started")
+    print(chat_id)
     # Send the message to the Telegram channel
-    bot.send_message(chat_id=-1001587722715, text=message, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True)
+    bot.send_message(chat_id=chat_id, text=message, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True)
 
 if __name__ == "__main__":
     # Example usage:
